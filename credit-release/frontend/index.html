@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>票据置信分放行验收台</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">信</span>
+      <div>
+        <h1>票据置信分放行验收台</h1>
+        <p class="subtitle">B 引擎置信分阈值调参 · 封存 · 验收 · 交付</p>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div id="session-box" class="session-box"></div>
+  </header>
+  <main id="view" class="view"></main>
+  <footer class="footer">
+    <span>规则：调参批/验收批批号票号互斥 · 阈值仅在调参批封存 · 同批只认一套封存阈值 · 旧尝试不得发布</span>
+  </footer>
+  <div id="toast" class="toast" hidden></div>
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>
